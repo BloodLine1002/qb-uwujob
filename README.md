@@ -14,36 +14,36 @@ UwU Cafe job for Gabz UwU Cat Cafe map for QBCore
 
 
 ## --Add to qb-core/shared/jobs.lua
-
--['uwu'] = {
--	       label = 'Uwu Cafe',
--        defaultDuty = true,
--	       offDutyPay = false,
--	       grades = {
--		['0'] = {
--			name = 'Recruit',
--			payment = 150
--		},
--		['1'] = {
--			name = 'Crew Member',
--			payment = 165
--		},
--		['2'] = {
--			name = 'Shift Manager',
--			payment = 175
--		},
--		['3'] = {
--			name = 'Manager',
--			payment = 185
--		},
--		['4'] = {
--			name = 'Owner',
--			isboss = true,
--			payment = 200
--		},
--	},
-- },
-
+```
+['uwu'] = {
+	label = 'Uwu Cafe',
+	defaultDuty = true,
+	offDutyPay = false,
+	grades = {
+		['0'] = {
+			name = 'Recruit',
+			payment = 150
+		},
+		['1'] = {
+			name = 'Crew Member',
+			payment = 165
+		},
+		['2'] = {
+			name = 'Shift Manager',
+			payment = 175
+		},
+		['3'] = {
+			name = 'Manager',
+			payment = 185
+		},
+		['4'] = {
+			name = 'Owner',
+			isboss = true,
+			payment = 200
+		},
+	},
+},
+```
 
 
 
