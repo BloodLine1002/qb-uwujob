@@ -14,6 +14,7 @@ UwU Cafe job for Gabz UwU Cat Cafe map for QBCore
 
 
 ## --Add to qb-core/shared/jobs.lua
+
 ['uwu'] = {
 	label = 'Uwu Cafe',
 	defaultDuty = true,
@@ -43,7 +44,13 @@ UwU Cafe job for Gabz UwU Cat Cafe map for QBCore
 	},
 },
 
+
+
+
+
 ## Add to qb-core/shared/shared.lua
+
+
 ["uwububbleteablueberry"] = {["name"] = "uwububbleteablueberry", ["label"] = "Berry Blue B-T", ["weight"] = 200, ["type"] = "item", ["image"] = "uwububbleteablueberry.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Lavender Tea with Blueberry Boba."},
 ["uwububbletearose"] = {["name"] = "uwububbletearose", ["label"] = "Rosey B-T", ["weight"] = 200, ["type"] = "item", ["image"] = "uwububbletearose.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Sakura Rose Tea with Vanilla Boba."},
 ["uwububbleteamint"] = {["name"] = "uwububbleteamint", ["label"] = "Minty B-T", ["weight"] = 200, ["type"] = "item", ["image"] = "uwububbleteamint.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Matcha Tea with Mint Boba."},
