@@ -443,5 +443,26 @@ Config.Items = {
 	}
 }
 
+Consumablesfood = {
+    ["sandwich"] = math.random(35, 54),
+    ["tosti"] = math.random(40, 50),
+    ["twerks_candy"] = math.random(35, 54),
+    ["snikkel_candy"] = math.random(40, 50),
+    ["uwupancake"] = math.random(25, 34),
+    ["uwubudhabowl"] = math.random(50, 60),
+    ["uwusushi"] = math.random(45, 50),
+    ["uwucupcake"] = math.random(40, 45),
+    ["uwuvanillasandy"] = math.random(50, 65),
+    ["uwuchocsandy"] = math.random(50, 65),
 
-	
+}
+
+Consumablesuwudrinks = {
+    ["water_bottle"] = math.random(35, 54),
+    ["kurkakola"] = math.random(35, 54),
+    ["coffee"] = math.random(40, 50),
+    ["uwububbleteablueberry"] = math.random(55, 60),
+    ["uwububbletearose"] = math.random(55, 60),
+    ["uwububbleteamint"] = math.random(55, 60),
+    ["uwumisosoup"] = math.random(80, 90),
+}

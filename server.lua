@@ -3,7 +3,7 @@ local upalletPrice = Config.upalletPrice
 local bothupalletPrice = Config.AllupalletPrice
 local bothupalletPrice2 = upalletPrice + bothupalletPrice
 local bentopalletPrice = Config.bentopalletPrice
-local shopearnings = LoadResourceFile("qb-uwujob", "earnings.json")
+local shopearnings = LoadResourceFile("qb-uwu", "earnings.json")
 
 
 
@@ -12,45 +12,45 @@ local shopearnings = LoadResourceFile("qb-uwujob", "earnings.json")
 
 QBCore.Functions.CreateUseableItem("uwupurpleplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwupurpleplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwupurpleplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwugreenplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwugreenplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwugreenplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwublueplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwublueplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwublueplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwubrownplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwubrownplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwubrownplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwuyellowplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwuyellowplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwuyellowplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwuredplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwuredplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwuredplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwugreenrareplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwugreenrareplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwugreenrareplush", source, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("uwupinkrareplush", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
-    TriggerClientEvent("qb-uwujob:client:uwupinkrareplush", source, item.name)
+    TriggerClientEvent("qb-uwu:client:uwupinkrareplush", source, item.name)
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwubudhabowl', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwubudhabowl', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local broccoil =  Player.Functions.GetItemByName('broccoil')
@@ -73,7 +73,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwubudhabowl', function(s
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwusushi', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwusushi', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local whiterice =  Player.Functions.GetItemByName('whiterice')
@@ -96,7 +96,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwusushi', function(sourc
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwumisosoup', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwumisosoup', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local dashigranules =  Player.Functions.GetItemByName('dashigranules')
@@ -117,7 +117,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwumisosoup', function(so
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwuchocsandy', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwuchocsandy', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local cocoapowder = Player.Functions.GetItemByName('cocoapowder')
@@ -142,7 +142,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwuchocsandy', function(s
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwuvanillasandy', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwuvanillasandy', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local vanillaextract = Player.Functions.GetItemByName('vanillaextract')
@@ -167,7 +167,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwuvanillasandy', functio
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwucupcake', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwucupcake', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local egg =  Player.Functions.GetItemByName('egg')
@@ -190,7 +190,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwucupcake', function(sou
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwupancake', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwupancake', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local egg =  Player.Functions.GetItemByName('egg')
@@ -209,7 +209,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwupancake', function(sou
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbleteamint', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwububbleteamint', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local matchapowder =  Player.Functions.GetItemByName('matchapowder')
@@ -228,7 +228,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbleteamint', functi
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbleteablueberry', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwububbleteablueberry', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local blueberrylavendertea =  Player.Functions.GetItemByName('blueberrylavendertea')
@@ -247,7 +247,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbleteablueberry', f
     end
 end)
 
-QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbletearose', function(source, cb)
+QBCore.Functions.CreateCallback('qb-uwu:ingredients:uwububbletearose', function(source, cb)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     local sakurarosetea =  Player.Functions.GetItemByName('sakurarosetea')
@@ -267,7 +267,7 @@ QBCore.Functions.CreateCallback('qb-uwujob:ingredients:uwububbletearose', functi
 end)
 
 
-RegisterNetEvent('qb-uwujob:payment:money', function()
+RegisterNetEvent('qb-uwu:payment:money', function()
     local src = source
     local price = 0
     local payment = 0
@@ -294,7 +294,7 @@ RegisterNetEvent('qb-uwujob:payment:money', function()
     end
 end)
 
-RegisterNetEvent('qb-uwujob:bill:player', function(info)
+RegisterNetEvent('qb-uwu:bill:player', function(info)
     local Player = QBCore.Functions.GetPlayer(source)
     local Player2 = QBCore.Functions.GetPlayer(tonumber(info.citizenid))
     local type = info.billtype
@@ -339,6 +339,79 @@ RegisterNetEvent('qb-uwujob:bill:player', function(info)
         end
     end
 end)
+
+
+QBCore.Functions.CreateUseableItem("uwububbleteablueberry", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwububbleteablueberry", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwububbletearose", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwububbleteablueberry", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwububbleteamint", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwububbleteablueberry", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwupancake", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwusandy", source, item.name)  
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwucupcake", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwusandy", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwuvanillasandy", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwusandy", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwuchocsandy", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwusandy", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwubudhabowl", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:budhabowl", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwusushi", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:uwusandy", source, item.name) 
+    end
+end)
+
+QBCore.Functions.CreateUseableItem("uwumisosoup", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("qb-uwu:client:misosoup", source, item.name) 
+    end
+end)
+
+
 
 
 
