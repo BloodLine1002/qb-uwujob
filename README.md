@@ -13,7 +13,7 @@ UwU Cafe job for Gabz UwU Cat Cafe map for QBCore
 
 
 
-## Add to qb-core/shared/jobs.lua
+## --Add to qb-core/shared/jobs.lua
 ['uwu'] = {
 	label = 'Uwu Cafe',
 	defaultDuty = true,
